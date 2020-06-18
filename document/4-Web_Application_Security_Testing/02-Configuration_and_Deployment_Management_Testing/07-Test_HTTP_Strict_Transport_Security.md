@@ -10,7 +10,7 @@ Web sites define the HTTP Strict Transport Security (HSTS) header to communicate
 
 Considering the importance of HSTS it is prudent to verify that the web site is responding with the HSTS header to ensure all data between the web browser and server is encrypted.
 
-HTTP Strict Transport Security (HSTS) lets a web application inform the browser through the use of a response header that it should never establish a connection to the the specified domain using HTTP. Instead, all requests to the specified domain will be encrypted with HTTPS. 
+HTTP Strict Transport Security (HSTS) lets a web application inform the browser through the use of a response header that it should never establish a connection to the the specified domain using HTTP. Instead, all requests to the specified domain will be automatically encrypted with HTTPS. 
 
 The HTTP strict transport security header uses two directives:
 
