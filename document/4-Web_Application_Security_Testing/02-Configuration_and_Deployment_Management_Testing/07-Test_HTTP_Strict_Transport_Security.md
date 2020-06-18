@@ -12,7 +12,7 @@ Considering the importance of HSTS it is prudent to verify that the web site is 
 
 HTTP Strict Transport Security (HSTS) lets a web application inform the browser through the use of a response header that it should never establish a connection to the the specified domain using HTTP. Instead, all requests to the specified domain will be automatically encrypted with HTTPS. 
 
-The HTTP strict transport security header uses two directives:
+The HTTP strict transport security header has two directives:
 
 - max-age: to indicate the number of seconds that the browser should automatically convert all HTTP requests to HTTPS.
 - includeSubDomains: to indicate that all web application’s sub-domains must use HTTPS.
