@@ -6,7 +6,7 @@
 
 ## Summary
 
-Websites define the HTTP Strict Transport Security (HSTS) header to communicate to web browsers that all traffic exchanged with the given domain (and specified subdomains) should be sent over HTTPS for a given period of time. This will help protect information from being sent over unencrypted requests.
+Web sites define the HTTP Strict Transport Security (HSTS) header to communicate to web browsers that all traffic exchanged with the given domain (and specified subdomains) should be sent over HTTPS for a given period of time. This will help protect information from being sent over unencrypted requests.
 
 Considering the importance of HSTS it is prudent to verify that the web site is responding with the HSTS header to ensure all data between the web browser and server is encrypted.
 
