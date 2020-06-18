@@ -21,7 +21,7 @@ An example of the HSTS header implementation:
 
 `Strict-Transport-Security: max-age=60000; includeSubDomains`
 
-The use of this header by web applications must be checked to establish if the following security issues could be produced:
+The use of this header by web applications must be checked to establish if the following security issues can be produced:
 
 - Attackers sniffing the network traffic and accessing the information transferred through an unencrypted channel.
 - Attackers exploiting a man in the middle attack due to the acceptance of certificates that are not trusted.
