@@ -29,7 +29,8 @@ The use of this header by web applications must be checked to find if the follow
 
 ## How to Test
 
-Testing for the presence of HSTS header can be done by checking for the existence of the HSTS header in the server's response in an interception proxy, or by using curl as follows:
+The presence of the HSTS header can be confirmed by examining the server's response through an interception proxy or by using CURL as follows:
+
 
 ```bash
 $ curl -s -D- https://owasp.org | grep Strict
