@@ -17,7 +17,7 @@ The HTTP strict transport security header uses two directives:
 - max-age: to indicate the number of seconds that the browser should automatically convert all HTTP requests to HTTPS.
 - includeSubDomains: to indicate that all web application’s sub-domains must use HTTPS.
 
-Here's an example of the HSTS header implementation:
+An example of the HSTS header implementation:
 
 `Strict-Transport-Security: max-age=60000; includeSubDomains`
 
